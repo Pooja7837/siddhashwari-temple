@@ -1,0 +1,8 @@
+# Clean-URL rules for Netlify / Cloudflare Pages.
+# The site is plain HTML, but devotees see pretty routes like /history.
+/home              /index.html    200
+/history           /history.html  200
+/programs          /programs.html 200
+/timings           /timings.html  200
+/donation          /donation.html 200
+/contact           /contact.html  200
