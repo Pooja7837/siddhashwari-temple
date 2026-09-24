@@ -501,7 +501,7 @@ window.SITE = {
       reachHeading: { en: "How to Reach", hi: "कैसे पहुँचें" },
       reach: [
         { mode: { en: "Nearest Railway Station", hi: "निकटतम रेलवे स्टेशन" }, name: { en: "Amritsar Junction", hi: "अमृतसर जंक्शन" }, note: { en: "About 6 km — 20 minutes by auto.", hi: "लगभग 6 किमी — ऑटो से 20 मिनट।" } },
-        { mode: { en: "Nearest Airport", hi: "निकटतम हवाई अड्डा" }, name: { en: "Sri Guru Ram Das Ji International Airport, Amritsar", hi: "श्री गुरु राम दास जी अंतर्राष्ट्रीय हवाई अड्डा, अमृतसर" }, note: { en: "About 15 km — 30 minutes by taxi.", hi: "लगभग 15 किमी — टैक्सी से 30 मिनट। (नमूना)" } },
+        { mode: { en: "Nearest Airport", hi: "निकटतम हवाई अड्डा" }, name: { en: "Sri Guru Ram Das Ji International Airport, Amritsar", hi: "श्री गुरु राम दास जी अंतर्राष्ट्रीय हवाई अड्डा, अमृतसर" }, note: { en: "About 15 km — 30 minutes by taxi.", hi: "लगभग 15 किमी — टैक्सी से 30 मिनट।" } },
         { mode: { en: "Nearest Bus Stand", hi: "निकटतम बस स्टैंड" }, name: { en: "Amritsar Bus Stand", hi: "अमृतसर बस स्टैंड" }, note: { en: "About 5 km — shared auto available.", hi: "लगभग 5 किमी — शेयर ऑटो उपलब्ध।" } },
         { mode: { en: "Local Transport", hi: "स्थानीय परिवहन" }, name: { en: "Auto & E-rickshaw", hi: "ऑटो एवं ई-रिक्शा" }, note: { en: "Ask for 'Khazana Gate'.", hi: "'खजाना गेट' कहें।" } }
       ],
