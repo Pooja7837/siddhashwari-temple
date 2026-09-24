@@ -630,15 +630,7 @@
           '<a class="btn btn--primary btn--block mobile-only" href="' + p.upi.link + '">' + esc(t(p.upi.payInApp)) + "</a>" +
           '<p class="muted">' + esc(t(p.upi.note)) + "</p>" +
         "</div>" +
-        '<div class="donate__side">' +
-          '<div class="panel" data-reveal>' +
-            "<h3>" + esc(t(p.amounts.heading)) + "</h3>" +
-            '<p class="muted">' + esc(t(p.amounts.note)) + "</p>" +
-            '<div class="chips">' + p.amounts.options.map(function (a) {
-              return '<button type="button" class="chip chip--pick" data-amount="' + a + '">' + esc(t(p.amounts.currency)) + " " + a + "</button>";
-            }).join("") +
-            '<button type="button" class="chip chip--pick" data-amount="custom">' + esc(t(p.amounts.custom)) + "</button></div>" +
-          "</div>" +
+        
           '<div class="panel" data-reveal>' +
             "<h3>" + esc(t(p.bank.heading)) + "</h3>" +
             '<ul class="bank">' + p.bank.rows.map(function (r) {
@@ -646,7 +638,7 @@
                 '<span class="bank__val"><code>' + esc(r.value) + "</code>" +
                 '<button type="button" class="iconbtn" aria-label="' + esc(t(S.ui.copy)) + '" data-copy="' + esc(r.value) + '">' + ICON.copy + "</button></span></li>";
             }).join("") + "</ul>" +
-            '<button type="button" class="btn btn--primary btn--block" data-toast="' + esc(t(p.bank.onlineNote)) + '">' + esc(t(p.bank.online)) + "</button>" +
+            
             '<p class="muted">' + esc(t(p.bank.onlineNote)) + "</p>" +
           "</div>" +
         "</div>" +
@@ -734,9 +726,7 @@
           "<h3>" + esc(t(r.name)) + "</h3><p>" + esc(t(r.note)) + "</p></article>";
       }).join("") + "</div>", "section--paper");
 
-    html += '<section class="map-band"><div class="container" data-reveal>' +
-      '<iframe title="' + esc(t(S.brand.name)) + ' location map" src="' + C.mapEmbed + '" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>' +
-      "</div></section>";
+    
 
     return html;
   };
@@ -833,14 +823,55 @@
 
     // --- demo forms
     app.querySelectorAll("form[data-form]").forEach(function (f) {
-      f.addEventListener("submit", function (e) {
-        e.preventDefault();
-        var ok = f.querySelector(".form__ok");
-        if (ok) ok.hidden = false;
-        f.reset();
-        toast(t({ en: "Submitted (demo)", hi: "जमा हुआ (डेमो)" }));
-      });
-    });
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var nameEl = f.querySelector("#ct-name");
+    if (nameEl) {
+      // This is the Contact Us form — send via WhatsApp
+      var name = f.querySelector("#ct-name").value.trim();
+      var phone = f.querySelector("#ct-phone").value.trim();
+      var msg = f.querySelector("#ct-msg").value.trim();
+
+      var text = "Name: " + name + "\nPhone: " + phone + "\nMessage: " + msg;
+      var waNumber = "919988167701"; // <-- put temple's WhatsApp number here, country code + number, no + or spaces
+      var waUrl = "https://wa.me/" + waNumber + "?text=" + encodeURIComponent(text);
+
+      window.open(waUrl, "_blank");
+      f.reset();
+      return;
+    }
+    var donNameEl = f.querySelector("#don-name");
+if (donNameEl) {
+  // This is the "Request a Receipt" donation form — send via WhatsApp
+  var dName = f.querySelector("#don-name").value.trim();
+  var dPhone = f.querySelector("#don-phone").value.trim();
+  var dEmail = f.querySelector("#don-email").value.trim();
+  var dAmount = f.querySelector("#don-amount").value.trim();
+  var dPan = f.querySelector("#don-pan").value.trim();
+  var dMsg = f.querySelector("#don-msg").value.trim();
+
+  var dText = "Receipt Request\nName: " + dName +
+    "\nPhone: " + dPhone +
+    "\nEmail: " + dEmail +
+    "\nDonation Amount: Rs " + dAmount +
+    "\nPAN: " + dPan +
+    "\nMessage: " + dMsg;
+
+  var waNumber2 = "919988167701"; // same temple WhatsApp number as before
+  var waUrl2 = "https://wa.me/" + waNumber2 + "?text=" + encodeURIComponent(dText);
+
+  window.open(waUrl2, "_blank");
+  f.reset();
+  return;
+}
+    // fallback for other forms (e.g. donation form) — keep demo behaviour
+    var ok = f.querySelector(".form__ok");
+    if (ok) ok.hidden = false;
+    f.reset();
+    toast(t({ en: "Submitted (demo)", hi: "जमा हुआ (डेमो)" }));
+  });
+});
     // --- gallery cards -> open photo album lightbox
     app.querySelectorAll("[data-album]").forEach(function (card) {
       var open = function () {
