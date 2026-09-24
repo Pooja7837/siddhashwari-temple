@@ -91,7 +91,7 @@ window.SITE = {
     home: {
       hero: {
         image: "images/homepage_image.jpg",
-        kicker: { en: "Shri Siddheshwari Peeth Dham Trust", hi: "श्री सिद्धेश्वरी पीठ धाम न्यास" },
+        kicker: { en: "Shri Siddheshwari Peeth Dham Trust", hi: "श्री सिद्धेश्वरी पीठ धाम ट्रस्ट" },
         title:  { en: "Mandir Siddheshwari Peeth Dham", hi: "मंदिर सिद्धेश्वरी पीठ धाम" },
         subtitle: { en: "Where Faith Meets Peace", hi: "जहाँ आस्था और शांति मिलती है" },
         text: {
