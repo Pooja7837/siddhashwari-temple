@@ -38,8 +38,8 @@ window.SITE = {
     whatsapp:     "919988167701",                  // WhatsApp float button (country code, no +)
     email:        "randav.sharma@gmail.com",
     address: {
-      en: "Mahakali Mandir (Gufa Wale), Tokrian wali Gali, Amritsar (143001), Punjab, India",
-      hi: "महाकाली मंदिर (गुफा वाले), टोकरियां वाली गली, अमृतसर (143001), पंजाब, भारत"
+      en: "Mandir Mahakali (Gufa Wale), Bhida Bazar, Chowk Khazana, Amritsar (143001), Punjab, India",
+      hi: "मंदिर महाकाली (गुफा वाले), भीड़ा बाज़ार, चौक खजाना, अमृतसर (143001), पंजाब, भारत"
     },
     // Opens in Google Maps (new tab)
     mapLink:  "https://maps.app.goo.gl/i8ZEUvBUgd69EqVCA?g_st=iw",
@@ -274,12 +274,12 @@ window.SITE = {
       gallery: {
         heading: { en: "Temple & Heritage Gallery", hi: "मंदिर एवं विरासत गैलरी" },
         items: [
-          { image: "images/photo-heritage.jpg",  caption: { en: "Ancient stone carvings", hi: "प्राचीन पत्थर की नक्काशी" } },
-          { image: "images/gallery-temple.svg",  caption: { en: "Main sanctum", hi: "मुख्य गर्भगृह" } },
-          { image: "images/homepage_image.jpg",     caption: { en: "Evening aarti", hi: "संध्या आरती" } },
-          { image: "images/photo-festival.jpg",  caption: { en: "Festival day", hi: "उत्सव दिवस" } },
-          { image: "images/gallery-langar.svg",  caption: { en: "Langar hall", hi: "लंगर हॉल" } },
-          { image: "images/gallery-past-events.svg", caption: { en: "Heritage expo", hi: "विरासत प्रदर्शनी" } }
+          { image: "images/new1.jpg",  caption: { en: "Temple Entry", hi: "मंदिर प्रवेश" } },
+          { image: "images/new2.jpg",  caption: { en: "Kaali Pujan", hi: "काली पूजन" } },
+          { image: "images/new3.jpg",  caption: { en: "Festival Celebration", hi: "उत्सव समारो" } },
+          { image: "images/sthapnadiwas.jpg",  caption: { en: "Festival Celebration", hi: "उत्सव समारो" } },
+          { image: "images/gufa.jpg",  caption: { en: "Gufa Darshan", hi: "गुफा दर्शन" } },
+          { image: "images/pindi2.jpg", caption: { en: "Pindi Darshan", hi: "पिंडी दर्शन" } }
         ]
       }
     },
@@ -288,29 +288,29 @@ window.SITE = {
     programs: {
       title: { en: "Programs & Festivals", hi: "कार्यक्रम एवं उत्सव" },
       intro: {
-        en: "Throughout the year the Dham celebrates every festival with kirtan, bhandara and community seva. All are welcome. (Sample)",
-        hi: "वर्षभर धाम प्रत्येक उत्सव कीर्तन, भंडारा और सामूहिक सेवा के साथ मनाता है। सभी सादर आमंत्रित हैं। (नमूना)"
+        en: "Throughout the year the Dham celebrates every festival with kirtan, bhandara and community seva. All are welcome.",
+        hi: "वर्षभर धाम प्रत्येक उत्सव कीर्तन, भंडारा और सामूहिक सेवा के साथ मनाता है। सभी सादर आमंत्रित हैं।"
       },
       festivalsHeading: { en: "Festivals We Celebrate", hi: "हमारे प्रमुख उत्सव" },
       festivals: [
-        { image: "images/festival-mahashivratri.svg", date: { en: "February", hi: "फरवरी" },
+        { image: "images/shivratri.jpg", date: { en: "February", hi: "फरवरी" },
           name: { en: "Mahashivratri", hi: "महाशिवरात्रि" },
-          text: { en: "Night-long jagran, rudrabhishek and four-prahar aarti at the sanctum. (Sample)", hi: "रात्रि जागरण, रुद्राभिषेक एवं चार प्रहर की आरती। (नमूना)" } },
-        { image: "images/festival-janmashtami.svg", date: { en: "August / September", hi: "अगस्त / सितंबर" },
+          text: { en: "Night-long jagran, rudrabhishek and four-prahar aarti at the sanctum.", hi: "रात्रि जागरण, रुद्राभिषेक एवं चार प्रहर की आरती।" } },
+        { image: "images/new4.jpg", date: { en: "August / September", hi: "अगस्त / सितंबर" },
           name: { en: "Janmashtami", hi: "जन्माष्टमी" },
-          text: { en: "Midnight abhishek, jhula shringar and kirtan through the night. (Sample)", hi: "मध्यरात्रि अभिषेक, झूला श्रृंगार एवं रात्रिभर कीर्तन। (नमूना)" } },
-        { image: "images/festival-hanuman-jayanti.svg", date: { en: "March / April", hi: "मार्च / अप्रैल" },
+          text: { en: "Midnight abhishek, jhula shringar and kirtan through the night.", hi: "मध्यरात्रि अभिषेक, झूला श्रृंगार एवं रात्रिभर कीर्तन।" } },
+        { image: "images/new8.jpg", date: { en: "March / April", hi: "मार्च / अप्रैल" },
           name: { en: "Hanuman Jayanti", hi: "हनुमान जयंती" },
-          text: { en: "Sundarkand path, sindoor seva and prasad bhandara for all. (Sample)", hi: "सुंदरकांड पाठ, सिंदूर सेवा एवं प्रसाद भंडारा। (नमूना)" } },
-        { image: "images/festival-navratri.svg", date: { en: "March / October", hi: "मार्च / अक्टूबर" },
+          text: { en: "Sundarkand path, sindoor seva and prasad bhandara for all.", hi: "सुंदरकांड पाठ, सिंदूर सेवा एवं प्रसाद भंडारा।" } },
+        { image: "images/navratre.jpg", date: { en: "March / October", hi: "मार्च / अक्टूबर" },
           name: { en: "Navratri", hi: "नवरात्रि" },
-          text: { en: "Kalash sthapana, nine nights of garba and Durga Saptashati path. (Sample)", hi: "कलश स्थापना, नौ रातों के गरबा एवं दुर्गा सप्तशती पाठ। (नमूना)" } },
-        { image: "images/festival-ashtami.svg", date: { en: "Every month", hi: "प्रत्येक माह" },
+          text: { en: "Kalash sthapana, nine nights of garba and Durga Saptashati path.", hi: "कलश स्थापना, नौ रातों के गरबा एवं दुर्गा सप्तशती पाठ।" } },
+        { image: "images/hanumjayanti.jpg", date: { en: "Every month", hi: "प्रत्येक माह" },
           name: { en: "Monthly Ashtami", hi: "मासिक अष्टमी" },
-          text: { en: "Special Ashtami aarti, havan and bhajan sandhya on the 8th lunar day. (Sample)", hi: "शुक्ल अष्टमी तिथि पर विशेष आरती, हवन एवं भजन संध्या। (नमूना)" } },
-        { image: "images/festival-foundation-day.svg", date: { en: "25 November", hi: "25 नवंबर" },
+          text: { en: "Special Ashtami aarti, havan and bhajan sandhya on the 8th lunar day.", hi: "शुक्ल अष्टमी तिथि पर विशेष आरती, हवन एवं भजन संध्या।" } },
+        { image: "images/sthapnadiwas.jpg", date: { en: "25 November", hi: "25 नवंबर" },
           name: { en: "Temple Foundation Day & Birthday of Shri Mankameshwar Giri Ji Maharaj", hi: "मंदिर स्थापना दिवस एवं श्री मनकामेश्वर गिरि जी महाराज का जन्मदिवस" },
-          text: { en: "Our grandest celebration: paduka pujan, mahabhandara, cultural evening and deep daan. (Sample)", hi: "हमारा सबसे भव्य उत्सव: पादुका पूजन, महाभंडारा, सांस्कृतिक संध्या एवं दीपदान। (नमूना)" } }
+          text: { en: "Our grandest celebration: paduka pujan, mahabhandara, cultural evening and deep daan.", hi: "हमारा सबसे भव्य उत्सव: पादुका पूजन, महाभंडारा, सांस्कृतिक संध्या एवं दीपदान।" } }
       ],
       upcoming: {
         heading: { en: "Upcoming Event", hi: "आगामी उत्सव" },
@@ -318,8 +318,8 @@ window.SITE = {
         // Edit this date (ISO 8601, Indian time zone). Countdown updates live.
         startDate: "2026-10-11T06:00:00+05:30",
         date: { en: "11 – 19 October 2026", hi: "11 – 19 अक्टूबर 2026" },
-        text: { en: "Nine nights of kalash sthapana, Durga Saptashati path, garba and daily mahaprasad. Devotees from all traditions are welcome. (Sample)", hi: "कलश स्थापना, दुर्गा सप्तशती पाठ, गरबा एवं नित्य महाप्रसाद की नौ रातें। सभी परंपराओं के भक्त सादर आमंत्रित हैं। (नमूना)" },
-        image: "images/photo-festival.jpg",
+        text: { en: "Nine nights of kalash sthapana, Durga Saptashati path, garba and daily mahaprasad. Devotees from all traditions are welcome.", hi: "कलश स्थापना, दुर्गा सप्तशती पाठ, गरबा एवं नित्य महाप्रसाद की नौ रातें। सभी परंपराओं के भक्त सादर आमंत्रित हैं।" },
+        image: "images/new5.jpg",
         countdown: {
           days: { en: "Days", hi: "दिन" }, hours: { en: "Hours", hi: "घंटे" },
           minutes: { en: "Minutes", hi: "मिनट" }, seconds: { en: "Seconds", hi: "सेकंड" }
@@ -327,7 +327,7 @@ window.SITE = {
       },
       calendar: {
         heading: { en: "Yearly Festival Calendar", hi: "वार्षिक उत्सव कैलेंडर" },
-        note: { en: "Dates are indicative and follow the Hindu lunar calendar; the final date is announced one month in advance. (Sample)", hi: "तिथियाँ हिंदू पंचांग के अनुसार सांकेतिक हैं; अंतिम तिथि एक माह पूर्व घोषित की जाती है। (नमूना)" },
+        note: { en: "Dates are indicative and follow the Hindu lunar calendar; the final date is announced one month in advance.", hi: "तिथियाँ हिंदू पंचांग के अनुसार सांकेतिक हैं; अंतिम तिथि एक माह पूर्व घोषित की जाती है।" },
         rows: [
           { month: { en: "January", hi: "जनवरी" },   event: { en: "Makar Sankranti & Havan", hi: "मकर संक्रांति एवं हवन" } },
           { month: { en: "February", hi: "फरवरी" },  event: { en: "Mahashivratri Mahotsav", hi: "महाशिवरात्रि महोत्सव" } },
@@ -339,19 +339,19 @@ window.SITE = {
           { month: { en: "August", hi: "अगस्त" },    event: { en: "Raksha Bandhan & Janmashtami", hi: "रक्षाबंधन एवं जन्माष्टमी" } },
           { month: { en: "September", hi: "सितंबर" }, event: { en: "Ganesh Chaturthi & Pitru Paksha Tarpan", hi: "गणेश चतुर्थी एवं पितृ पक्ष तर्पण" } },
           { month: { en: "October", hi: "अक्टूबर" }, event: { en: "Sharad Navratri & Dussehra", hi: "शरद नवरात्रि एवं दशहरा" } },
-          { month: { en: "November", hi: "नवंबर" },  event: { en: "Foundation Day & Birthday of Gurudev (25 Nov)", hi: "स्थापना दिवस एवं गुरुदेव जन्मदिवस (25 नवंबर)" } },
+          { month: { en: "November", hi: "नवंबर" }, event: { en: "Diwali, Foundation Day & Birthday of Gurudev (7 Nov)", hi: "दीपावली, स्थापना दिवस एवं गुरुदेव जन्मदिवस (7 नवंबर)" } },
           { month: { en: "December", hi: "दिसंबर" }, event: { en: "Gita Jayanti & Deep Daan", hi: "गीता जयंती एवं दीपदान" } }
         ]
       },
       gallery: {
         heading: { en: "Gallery of Past Events", hi: "पिछले उत्सवों की गैलरी" },
         items: [
-          { image: "images/photo-festival.jpg",      caption: { en: "Navratri Mahotsav (Sample)", hi: "नवरात्रि महोत्सव (नमूना)" } },
-          { image: "images/gallery-langar.svg",      caption: { en: "Mahabhandara (Sample)", hi: "महाभंडारा (नमूना)" } },
-          { image: "images/homepage_image.jpg",         caption: { en: "Mahashivratri Jagran (Sample)", hi: "महाशिवरात्रि जागरण (नमूना)" } },
-          { image: "images/gallery-past-events.svg", caption: { en: "Foundation Day (Sample)", hi: "स्थापना दिवस (नमूना)" } },
-          { image: "images/photo-eye-camp.jpg",      caption: { en: "Free Eye Camp (Sample)", hi: "निःशुल्क नेत्र शिविर (नमूना)" } },
-          { image: "images/photo-physio.jpg",        caption: { en: "Physiotherapy Camp (Sample)", hi: "फिजियोथेरेपी शिविर (नमूना)" } }
+          { image: "images/shiva.jpg",      caption: { en: "Navratri Mahotsav", hi: "नवरात्रि महोत्सव" } },
+          { image: "images/langar.jpg",      caption: { en: "Mahabhandara", hi: "महाभंडारा" } },
+          { image: "images/ruthra.jpg",         caption: { en: "Mahashivratri Jagran", hi: "महाशिवरात्रि जागरण" } },
+          { image: "images/havan.png", caption: { en: "Foundation Day", hi: "स्थापना दिवस" } },
+          { image: "images/new7.jpg",      caption: { en: "Free Eye Camp", hi: "निःशुल्क नेत्र शिविर" } },
+          { image: "images/physiotherapy.jpg",        caption: { en: "Physiotherapy Camp", hi: "फिजियोथेरेपी शिविर" } }
         ]
       }
     },
@@ -360,37 +360,37 @@ window.SITE = {
     timings: {
       title: { en: "Aarti & Darshan Timings", hi: "आरती एवं दर्शन समय" },
       intro: {
-        en: "The temple is open every day of the year. Timings below are sample timings for this demo — edit them any time in the data file. (Sample)",
-        hi: "मंदिर वर्ष के प्रत्येक दिन खुला रहता है। नीचे दिए समय इस डेमो हेतु नमूना हैं — इन्हें कभी भी डेटा फ़ाइल में बदला जा सकता है। (नमूना)"
+        en: "The temple is open every day of the year. Timings below are sample timings for this demo — edit them any time in the data file.",
+        hi: "मंदिर वर्ष के प्रत्येक दिन खुला रहता है। नीचे दिए समय इस डेमो हेतु नमूना हैं — इन्हें कभी भी डेटा फ़ाइल में बदला जा सकता है।"
       },
       badgeNote: {
-        en: "The badge below updates live from your device clock. Please arrive 15 minutes before aarti. (Sample)",
-        hi: "नीचे दिया बैज आपके डिवाइस की घड़ी से लाइव अपडेट होता है। कृपया आरती से 15 मिनट पूर्व पधारें। (नमूना)"
+        en: "The badge below updates live from your device clock. Please arrive 15 minutes before aarti.",
+        hi: "नीचे दिया बैज आपके डिवाइस की घड़ी से लाइव अपडेट होता है। कृपया आरती से 15 मिनट पूर्व पधारें।"
       },
       // 24-hour "HH:MM" strings. Used for the live OPEN / CLOSED badge.
       openWindows: [ ["04:30", "12:30"], ["16:00", "21:15"] ],
       dailyHeading: { en: "Daily Schedule", hi: "दैनिक कार्यक्रम" },
       daily: [
-        { name: { en: "Mangla Aarti",       hi: "मंगला आरती" },      time: "04:30", end: "05:00", note: { en: "First aarti of the day, followed by shringar darshan. (Sample)", hi: "दिन की प्रथम आरती, इसके पश्चात श्रृंगार दर्शन। (नमूना)" } },
-        { name: { en: "Morning Darshan",    hi: "प्रातःकालीन दर्शन" }, time: "05:00", end: "12:00", note: { en: "Uninterrupted darshan; abhishek on request. (Sample)", hi: "निरंतर दर्शन; अनुरोध पर अभिषेक। (नमूना)" } },
-        { name: { en: "Bhog",               hi: "भोग" },              time: "12:00", end: "12:30", note: { en: "Bhog offering and temple closes for rest period. (Sample)", hi: "भोग अर्पण, इसके पश्चात मंदिर विश्राम हेतु बंद। (नमूना)" } },
-        { name: { en: "Evening Darshan",    hi: "सायंकालीन दर्शन" },   time: "16:00", end: "20:30", note: { en: "Darshan resumes; daily katha and bhajan. (Sample)", hi: "दर्शन पुनः आरंभ; नित्य कथा एवं भजन। (नमूना)" } },
-        { name: { en: "Sandhya Aarti",      hi: "संध्या आरती" },       time: "19:00", end: "19:30", note: { en: "Evening lamp offering to the deities. (Sample)", hi: "देवताओं को संध्या दीप अर्पण। (नमूना)" } },
-        { name: { en: "Shayan Aarti",       hi: "शयन आरती" },          time: "21:00", end: "21:15", note: { en: "Final aarti; temple closes at 9:15 PM. (Sample)", hi: "अंतिम आरती; मंदिर रात्रि 9:15 बजे बंद। (नमूना)" } }
+        { name: { en: "Mangla Aarti",       hi: "मंगला आरती" },      time: "07:00", end: "07:30", note: { en: "First aarti of the day, followed by shringar darshan.", hi: "दिन की प्रथम आरती, इसके पश्चात श्रृंगार दर्शन।" } },
+        { name: { en: "Morning Darshan",    hi: "प्रातःकालीन दर्शन" }, time: "06:30", end: "12:00", note: { en: "Uninterrupted darshan; abhishek on request.", hi: "निरंतर दर्शन; अनुरोध पर अभिषेक।" } },
+        { name: { en: "Bhog",               hi: "भोग" },              time: "12:00", end: "12:30", note: { en: "Bhog offering and temple closes for rest period.", hi: "भोग अर्पण, इसके पश्चात मंदिर विश्राम हेतु बंद।" } },
+        { name: { en: "Evening Darshan",    hi: "सायंकालीन दर्शन" },   time: "16:00", end: "20:30", note: { en: "Darshan resumes; daily katha and bhajan.", hi: "दर्शन पुनः आरंभ; नित्य कथा एवं भजन।)" } },
+        { name: { en: "Sandhya Aarti",      hi: "संध्या आरती" },       time: "19:00", end: "19:30", note: { en: "Evening lamp offering to the deities.", hi: "देवताओं को संध्या दीप अर्पण।" } },
+        { name: { en: "Shayan Aarti",       hi: "शयन आरती" },          time: "21:00", end: "21:15", note: { en: "Final aarti; temple closes at 9:15 PM.", hi: "अंतिम आरती; मंदिर रात्रि 9:15 बजे बंद।" } }
       ],
       specialHeading: { en: "Festival & Ashtami Timings", hi: "उत्सव एवं अष्टमी समय" },
-      specialNote: { en: "On these days the temple opens earlier, stays open longer and offers a midnight aarti. (Sample)", hi: "इन दिनों मंदिर पूर्व खुलता है, अधिक समय तक खुला रहता है और मध्यरात्रि आरती होती है। (नमूना)" },
+      specialNote: { en: "On these days the temple opens earlier, stays open longer and offers a midnight aarti.", hi: "इन दिनों मंदिर पूर्व खुलता है, अधिक समय तक खुला रहता है और मध्यरात्रि आरती होती है।" },
       special: [
-        { name: { en: "Monthly Ashtami",   hi: "मासिक अष्टमी" },   time: { en: "4:00 AM – 10:00 PM", hi: "प्रातः 4:00 – रात्रि 10:00" }, note: { en: "Special havan at 9:00 AM and bhajan sandhya at 7:00 PM. (Sample)", hi: "प्रातः 9:00 बजे विशेष हवन एवं सायं 7:00 बजे भजन संध्या। (नमूना)" } },
-        { name: { en: "Mahashivratri",     hi: "महाशिवरात्रि" },   time: { en: "Open all night", hi: "रात्रिभर खुला" }, note: { en: "Four-prahar aarti and continuous jagran. (Sample)", hi: "चार प्रहर आरती एवं निरंतर जागरण। (नमूना)" } },
-        { name: { en: "Janmashtami",       hi: "जन्माष्टमी" },     time: { en: "4:00 AM – 12:30 AM", hi: "प्रातः 4:00 – रात्रि 12:30" }, note: { en: "Midnight abhishek and jhula shringar. (Sample)", hi: "मध्यरात्रि अभिषेक एवं झूला श्रृंगार। (नमूना)" } },
-        { name: { en: "Navratri",          hi: "नवरात्रि" },       time: { en: "4:00 AM – 10:30 PM", hi: "प्रातः 4:00 – रात्रि 10:30" }, note: { en: "Garba and Durga Saptashati path every evening. (Sample)", hi: "प्रत्येक सायं गरबा एवं दुर्गा सप्तशती पाठ। (नमूना)" } },
-        { name: { en: "Foundation Day (25 Nov)", hi: "स्थापना दिवस (25 नवंबर)" }, time: { en: "3:30 AM – 11:00 PM", hi: "प्रातः 3:30 – रात्रि 11:00" }, note: { en: "Mahabhandara and cultural evening. (Sample)", hi: "महाभंडारा एवं सांस्कृतिक संध्या। (नमूना)" } }
+        { name: { en: "Monthly Ashtami",   hi: "मासिक अष्टमी" },   time: { en: "7:00 AM – 10:00 PM", hi: "प्रातः 7:00 – रात्रि 10:00" }, note: { en: "Special havan at 9:00 AM and bhajan sandhya at 7:00 PM.", hi: "प्रातः 9:00 बजे विशेष हवन एवं सायं 7:00 बजे भजन संध्या।" } },
+        { name: { en: "Mahashivratri",     hi: "महाशिवरात्रि" },   time: { en: "Open all night", hi: "रात्रिभर खुला" }, note: { en: "Four-prahar aarti and continuous jagran.", hi: "चार प्रहर आरती एवं निरंतर जागरण।" } },
+        { name: { en: "Janmashtami",       hi: "जन्माष्टमी" },     time: { en: "7:00 AM – 12:30 AM", hi: "प्रातः 7:00 – रात्रि 12:30" }, note: { en: "Midnight abhishek and jhula shringar.", hi: "मध्यरात्रि अभिषेक एवं झूला श्रृंगार।" } },
+        { name: { en: "Navratri",          hi: "नवरात्रि" },       time: { en: "7:00 AM – 10:30 PM", hi: "प्रातः 7:00 – रात्रि 10:30" }, note: { en: "Garba and Durga Saptashati path every evening.", hi: "प्रत्येक सायं गरबा एवं दुर्गा सप्तशती पाठ।" } },
+        { name: { en: "Foundation Day (25 Nov)", hi: "स्थापना दिवस (25 नवंबर)" }, time: { en: "7:30 AM – 11:00 PM", hi: "प्रातः 7:30 – रात्रि 11:00" }, note: { en: "Mahabhandara and cultural evening.", hi: "महाभंडारा एवं सांस्कृतिक संध्या।" } }
       ],
       live: {
         heading: { en: "Live Darshan", hi: "लाइव दर्शन" },
-        text: { en: "Cannot visit today? Join the live stream of the aarti from wherever you are. (Sample)", hi: "आज दर्शन नहीं कर पा रहे? कहीं से भी आरती का लाइव प्रसारण देखें। (नमूना)" },
-        url: "https://www.youtube.com/results?search_query=live+darshan+aarti"
+        text: { en: "Cannot visit today? Join the live stream of the aarti from wherever you are.", hi: "आज दर्शन नहीं कर पा रहे? कहीं से भी आरती का लाइव प्रसारण देखें।" },
+        url: "https://www.facebook.com/kalimata.mandir.7"
       }
     },
 
@@ -404,41 +404,41 @@ window.SITE = {
       causesHeading: { en: "Where Your Donation Goes", hi: "आपका दान कहाँ जाता है" },
       causes: [
         { image: "images/langar.jpg", title: { en: "Langar (Bhandara)", hi: "लंगर (भंडारा)" },
-          text: { en: "Daily free meals for devotees, pilgrims and anyone in need. (Sample)", hi: "भक्तों, तीर्थयात्रियों एवं आवश्यकता वालों हेतु नित्य निःशुल्क भोजन। (नमूना)" },
+          text: { en: "Daily free meals for devotees, pilgrims and anyone in need.", hi: "भक्तों, तीर्थयात्रियों एवं आवश्यकता वालों हेतु नित्य निःशुल्क भोजन। " },
           impact: { en: "Rs 501 feeds 10 people", hi: "रु. 501 से 10 लोगों का भोजन" } },
         { image: "images/gauseva.jpg", title: { en: "Gau Seva", hi: "गौ सेवा" },
-          text: { en: "Fodder, medicine and shelter for rescued and injured cows. (Sample)", hi: "बचाई गई एवं घायल गौवंश हेतु चारा, औषधि एवं आश्रय। (नमूना)" },
+          text: { en: "Fodder, medicine and shelter for rescued and injured cows.", hi: "बचाई गई एवं घायल गौवंश हेतु चारा, औषधि एवं आश्रय।" },
           impact: { en: "Rs 1,100 feeds one cow for a month", hi: "रु. 1,100 से एक गौ का एक माह का चारा" } },
-        { image: "images/cause-eye-camps.svg", title: { en: "Eye Camps", hi: "नेत्र शिविर" },
-          text: { en: "Free eye check-ups, spectacles and cataract surgeries. (Sample)", hi: "निःशुल्क नेत्र जाँच, चश्मे एवं मोतियाबिंद ऑपरेशन। (नमूना)" },
+        { image: "images/new7.jpg", title: { en: "Eye Camps", hi: "नेत्र शिविर" },
+          text: { en: "Free eye check-ups, spectacles and cataract surgeries.", hi: "निःशुल्क नेत्र जाँच, चश्मे एवं मोतियाबिंद ऑपरेशन।" },
           impact: { en: "Rs 2,500 restores sight to one person", hi: "रु. 2,500 से एक व्यक्ति की दृष्टि लौटती है" } },
         { image: "images/physiotherapy.jpg", title: { en: "Physiotherapy Camps", hi: "फिजियोथेरेपी शिविर" },
-          text: { en: "Free therapy and mobility care for elders and the disabled. (Sample)", hi: "वृद्धजनों एवं दिव्यांगों हेतु निःशुल्क थेरेपी एवं गतिशीलता देखभाल। (नमूना)" },
+          text: { en: "Free therapy and mobility care for elders and the disabled.", hi: "वृद्धजनों एवं दिव्यांगों हेतु निःशुल्क थेरेपी एवं गतिशीलता देखभाल।" },
           impact: { en: "Rs 5,100 funds a full therapy camp day", hi: "रु. 5,100 से एक दिवस का पूर्ण थेरेपी शिविर" } },
         { image: "images/shivratri.jpg", title: { en: "Temple Seva", hi: "मंदिर सेवा" },
-          text: { en: "Daily puja, flowers, ghee for lamps and upkeep of the Dham. (Sample)", hi: "नित्य पूजा, पुष्प, दीप हेतु घी एवं धाम के रखरखाव हेतु। (नमूना)" },
+          text: { en: "Daily puja, flowers, ghee for lamps and upkeep of the Dham.", hi: "नित्य पूजा, पुष्प, दीप हेतु घी एवं धाम के रखरखाव हेतु।" },
           impact: { en: "Rs 101 sponsors a day of lamp offering", hi: "रु. 101 से एक दिवस का दीप अर्पण" } }
       ],
       countersHeading: { en: "Your Seva in Numbers", hi: "आपकी सेवा के आँकड़े" },
       counters: [
-        { value: 128000, suffix: "+", label: { en: "Meals Served", hi: "भोजन परोसा गया" } },
-        { value: 1240,   suffix: "+", label: { en: "Cows Cared For", hi: "गौवंश की देखभाल" } },
-        { value: 9600,   suffix: "+", label: { en: "Patients Treated", hi: "रोगियों का उपचार" } },
-        { value: 42,     suffix: "",  label: { en: "Camps Held This Year", hi: "इस वर्ष आयोजित शिविर" } }
+        { value: 10000, suffix: "+", label: { en: "Meals Served", hi: "भोजन परोसा गया" } },
+        { value: 50,   suffix: "+", label: { en: "Cows Cared For", hi: "गौवंश की देखभाल" } },
+        { value: 200,   suffix: "+", label: { en: "Patients Treated", hi: "रोगियों का उपचार" } },
+        { value: 2,     suffix: "",  label: { en: "Camps Held This Year", hi: "इस वर्ष आयोजित शिविर" } }
       ],
       howHeading: { en: "How to Donate", hi: "दान कैसे करें" },
       upi: {
         heading: { en: "Scan & Pay via UPI", hi: "UPI से स्कैन कर भुगतान करें" },
-        id: "Siddheshwaridham@okhdfcbank",
-        note: { en: "Works with GPay, PhonePe, Paytm, BHIM and every UPI app. (Sample UPI ID — replace before going live.)", hi: "GPay, PhonePe, Paytm, BHIM एवं सभी UPI ऐप्स से कार्य करता है। (नमूना UPI ID — लाइव करने से पूर्व बदलें।)" },
-        qr: "images/upi-qr.svg",
+        id: "QR917973632738-5143@unionbankofindia",
+        note: { en: "Works with GPay, PhonePe, Paytm, BHIM and every UPI app.", hi: "GPay, PhonePe, Paytm, BHIM एवं सभी UPI ऐप्स से कार्य करता है।" },
+        qr: "images/new6.jpg",
         // Deep link used by the "Pay with UPI app" button on mobile
         link: "upi://pay?pa=Siddheshwaridham@okhdfcbank&pn=Mandir%20Siddheshwari%20Peeth%20Dham&cu=INR",
         payInApp: { en: "Pay with UPI app", hi: "UPI ऐप से भुगतान करें" }
       },
       amounts: {
         heading: { en: "Choose an Amount", hi: "राशि चुनें" },
-        note: { en: "Selecting an amount fills the receipt form below. (Sample)", hi: "राशि चुनने पर नीचे का रसीद फ़ॉर्म भर जाएगा। (नमूना)" },
+        note: { en: "Selecting an amount fills the receipt form below.", hi: "राशि चुनने पर नीचे का रसीद फ़ॉर्म भर जाएगा।" },
         options: [101, 501, 1100, 5100],
         custom: { en: "Custom", hi: "अन्य राशि" },
         currency: { en: "Rs", hi: "रु." }
@@ -446,22 +446,22 @@ window.SITE = {
       bank: {
         heading: { en: "Bank Transfer Details", hi: "बैंक हस्तांतरण विवरण" },
         rows: [
-          { label: { en: "Account Name",   hi: "खाता नाम" },       value: "Shri Siddheshwari Peeth Dham Trust" },
-          { label: { en: "Account Number", hi: "खाता संख्या" },     value: "0000123456789012" },
-          { label: { en: "IFSC Code",      hi: "IFSC कोड" },        value: "HDFC0001234" },
-          { label: { en: "Bank",           hi: "बैंक" },            value: "HDFC Bank (Sample)" },
-          { label: { en: "Branch",         hi: "शाखा" },            value: "Temple Road, Varanasi (Sample)" }
+          { label: { en: "Account Name",   hi: "खाता नाम" },       value: "Shri Sideshwari Pith Dham Society" },
+          { label: { en: "Account Number", hi: "खाता संख्या" },     value: "397201010035143" },
+          { label: { en: "IFSC Code",      hi: "IFSC कोड" },        value: "UBIN0539724" },
+          { label: { en: "Bank",           hi: "बैंक" },            value: "UNION BANK OF INDIA" },
+          { label: { en: "Branch",         hi: "शाखा" },            value: "Majith Mandi, Amritsar" }
         ],
         online: { en: "Donate Online (Card / Netbanking)", hi: "ऑनलाइन दान (कार्ड / नेटबैंकिंग)" },
-        onlineNote: { en: "Placeholder payment gateway button for the live site. (Sample)", hi: "लाइव साइट हेतु प्लेसहोल्डर भुगतान गेटवे बटन। (नमूना)" }
+        onlineNote: { en: "Kindly transfer using the above details via your bank's app, netbanking or branch.", hi: "कृपया उपरोक्त विवरण का उपयोग कर अपने बैंक के ऐप, नेटबैंकिंग या शाखा के माध्यम से हस्तांतरण करें।" }
       },
       tax: {
         heading: { en: "80G Tax Benefit", hi: "80G कर लाभ" },
-        text: { en: "Donations to the trust are eligible for deduction under Section 80G of the Income Tax Act. A stamped receipt is issued for every donation above Rs 500. (Sample)", hi: "न्यास को दिया गया दान आयकर अधिनियम की धारा 80G के अंतर्गत छूट हेतु पात्र है। रु. 500 से अधिक के प्रत्येक दान पर मुद्रित रसीद जारी की जाती है। (नमूना)" }
+        text: { en: "Donations to the trust are eligible for deduction under Section 80G of the Income Tax Act. A stamped receipt is issued for every donation above Rs 500.", hi: "न्यास को दिया गया दान आयकर अधिनियम की धारा 80G के अंतर्गत छूट हेतु पात्र है। रु. 500 से अधिक के प्रत्येक दान पर मुद्रित रसीद जारी की जाती है।" }
       },
       form: {
         heading: { en: "Request a Receipt", hi: "रसीद का अनुरोध करें" },
-        note: { en: "Fill this form to receive your 80G receipt by email. (Sample — connects to email later.)", hi: "ईमेल द्वारा 80G रसीद प्राप्त करने हेतु यह फ़ॉर्म भरें। (नमूना — आगे ईमेल से जोड़ा जाएगा।)" },
+        note: { en: "Fill this form to receive your 80G receipt by email.", hi: "ईमेल द्वारा 80G रसीद प्राप्त करने हेतु यह फ़ॉर्म भरें।" },
         fields: {
           name:  { en: "Full Name", hi: "पूरा नाम" },
           phone: { en: "Phone", hi: "फ़ोन" },
@@ -471,11 +471,11 @@ window.SITE = {
           message:{ en: "Message (optional)", hi: "संदेश (वैकल्पिक)" }
         },
         submit: { en: "Submit Request", hi: "अनुरोध भेजें" },
-        success: { en: "Thank you! Your receipt request has been recorded. (Sample — no email is sent in this demo.)", hi: "धन्यवाद! आपका रसीद अनुरोध दर्ज हो गया है। (नमूना — इस डेमो में कोई ईमेल नहीं भेजा जाता।)" }
+        success: { en: "Thank you! Your receipt request has been recorded.", hi: "धन्यवाद! आपका रसीद अनुरोध दर्ज हो गया है।" }
       },
       trust: {
         heading: { en: "Our Promise of Transparency", hi: "पारदर्शिता का हमारा वचन" },
-        text: { en: "Every rupee is accounted for and audited annually. Accounts are available to any donor on request, and each seva is reported in our monthly bulletin. Your generosity is received with gratitude and used with care. (Sample)", hi: "प्रत्येक रुपये का लेखा-जोखा रखा जाता है और वार्षिक लेखा-परीक्षण होता है। लेखे किसी भी दानकर्ता के अनुरोध पर उपलब्ध हैं एवं प्रत्येक सेवा की जानकारी मासिक पत्रिका में दी जाती है। आपकी उदारता हृदय से स्वीकार की जाती है और सावधानी से उपयोग की जाती है। (नमूना)" }
+        text: { en: "Every rupee is accounted for and audited annually. Accounts are available to any donor on request, and each seva is reported in our monthly bulletin. Your generosity is received with gratitude and used with care.", hi: "प्रत्येक रुपये का लेखा-जोखा रखा जाता है और वार्षिक लेखा-परीक्षण होता है। लेखे किसी भी दानकर्ता के अनुरोध पर उपलब्ध हैं एवं प्रत्येक सेवा की जानकारी मासिक पत्रिका में दी जाती है। आपकी उदारता हृदय से स्वीकार की जाती है और सावधानी से उपयोग की जाती है।" }
       }
     },
 
@@ -483,29 +483,29 @@ window.SITE = {
     contact: {
       title: { en: "Contact Us", hi: "संपर्क करें" },
       intro: {
-        en: "We would love to hear from you — for darshan queries, seva, or simply to say Jai Shri Ram. (Sample)",
-        hi: "हम आपसे सुनना चाहेंगे — दर्शन संबंधी प्रश्न, सेवा अथवा केवल जय श्री राम कहने के लिए। (नमूना)"
+        en: "We would love to hear from you — for darshan queries, seva, or simply to say Jai Shri Ram.",
+        hi: "हम आपसे सुनना चाहेंगे — दर्शन संबंधी प्रश्न, सेवा अथवा केवल जय श्री राम कहने के लिए।"
       },
       detailsHeading: { en: "Reach the Temple", hi: "मंदिर से संपर्क" },
       form: {
         heading: { en: "Send Us a Message", hi: "हमें संदेश भेजें" },
-        note: { en: "We usually reply within two working days. (Sample — connects to email later.)", hi: "हम सामान्यतः दो कार्यदिवसों में उत्तर देते हैं। (नमूना — आगे ईमेल से जोड़ा जाएगा।)" },
+        note: { en: "We usually reply within two working days.", hi: "हम सामान्यतः दो कार्यदिवसों में उत्तर देते हैं।" },
         fields: {
           name: { en: "Your Name", hi: "आपका नाम" },
           phone: { en: "Phone", hi: "फ़ोन" },
           message: { en: "Message", hi: "संदेश" }
         },
         submit: { en: "Send Message", hi: "संदेश भेजें" },
-        success: { en: "Thank you! Your message has been recorded. (Sample — no email is sent in this demo.)", hi: "धन्यवाद! आपका संदेश दर्ज हो गया है। (नमूना — इस डेमो में कोई ईमेल नहीं भेजा जाता।)" }
+        success: { en: "Thank you! Your message has been recorded.", hi: "धन्यवाद! आपका संदेश दर्ज हो गया है।" }
       },
       reachHeading: { en: "How to Reach", hi: "कैसे पहुँचें" },
       reach: [
-        { mode: { en: "Nearest Railway Station", hi: "निकटतम रेलवे स्टेशन" }, name: { en: "Varanasi Junction (BSB)", hi: "वाराणसी जंक्शन (BSB)" }, note: { en: "About 6 km — 20 minutes by auto. (Sample)", hi: "लगभग 6 किमी — ऑटो से 20 मिनट। (नमूना)" } },
-        { mode: { en: "Nearest Airport", hi: "निकटतम हवाई अड्डा" }, name: { en: "Lal Bahadur Shastri Intl. (VNS)", hi: "लाल बहादुर शास्त्री अंतर्राष्ट्रीय (VNS)" }, note: { en: "About 24 km — 50 minutes by taxi. (Sample)", hi: "लगभग 24 किमी — टैक्सी से 50 मिनट। (नमूना)" } },
-        { mode: { en: "Nearest Bus Stand", hi: "निकटतम बस स्टैंड" }, name: { en: "Cantt Bus Stand", hi: "कैंट बस स्टैंड" }, note: { en: "About 5 km — shared auto available. (Sample)", hi: "लगभग 5 किमी — शेयर ऑटो उपलब्ध। (नमूना)" } },
-        { mode: { en: "Local Transport", hi: "स्थानीय परिवहन" }, name: { en: "Auto & E-rickshaw", hi: "ऑटो एवं ई-रिक्शा" }, note: { en: "Ask for 'Siddheshwari Dham, Temple Road'. (Sample)", hi: "'सिद्धेश्वरी धाम, मंदिर मार्ग' कहें। (नमूना)" } }
+        { mode: { en: "Nearest Railway Station", hi: "निकटतम रेलवे स्टेशन" }, name: { en: "Amritsar Junction", hi: "अमृतसर जंक्शन" }, note: { en: "About 6 km — 20 minutes by auto.", hi: "लगभग 6 किमी — ऑटो से 20 मिनट।" } },
+        { mode: { en: "Nearest Airport", hi: "निकटतम हवाई अड्डा" }, name: { en: "Sri Guru Ram Das Ji International Airport, Amritsar)", hi: "श्री गुरु राम दास जी अंतर्राष्ट्रीय हवाई अड्डा, अमृतसर" }, note: { en: "About 15 km — 30 minutes by taxi.", hi: "लगभग 15 किमी — टैक्सी से 30 मिनट। (नमूना)" } },
+        { mode: { en: "Nearest Bus Stand", hi: "निकटतम बस स्टैंड" }, name: { en: "Amritsar Bus Stand", hi: "अमृतसर बस स्टैंड" }, note: { en: "About 5 km — shared auto available.", hi: "लगभग 5 किमी — शेयर ऑटो उपलब्ध।" } },
+        { mode: { en: "Local Transport", hi: "स्थानीय परिवहन" }, name: { en: "Auto & E-rickshaw", hi: "ऑटो एवं ई-रिक्शा" }, note: { en: "Ask for 'Khazana Gate'.", hi: "'खजाना गेट' कहें।" } }
       ],
-      timingsLink: { en: "See Aarti & Darshan Timings", hi: "आरती एवं दर्शन समय देखें" }
+      
     }
   },
 
