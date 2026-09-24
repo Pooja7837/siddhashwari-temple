@@ -344,7 +344,7 @@ window.SITE = {
         ]
       },
       gallery: {
-        heading: { en: "Gallery of Past Events", hi: "पिछले उत्सवों की गैलरी" },
+        heading: { en: "Gallery of Past Events", hi: "पिछले उत्सवों की झलकियाँ" },
         items: [
           { image: "images/shiva.jpg",      caption: { en: "Navratri Mahotsav", hi: "नवरात्रि महोत्सव" } },
           { image: "images/langar.jpg",      caption: { en: "Mahabhandara", hi: "महाभंडारा" } },
@@ -360,13 +360,10 @@ window.SITE = {
     timings: {
       title: { en: "Aarti & Darshan Timings", hi: "आरती एवं दर्शन समय" },
       intro: {
-        en: "The temple is open every day of the year. Timings below are sample timings for this demo — edit them any time in the data file.",
-        hi: "मंदिर वर्ष के प्रत्येक दिन खुला रहता है। नीचे दिए समय इस डेमो हेतु नमूना हैं — इन्हें कभी भी डेटा फ़ाइल में बदला जा सकता है।"
+        en: "The temple is open every day of the year.",
+        hi: "मंदिर वर्ष के प्रत्येक दिन खुला रहता है।"
       },
-      badgeNote: {
-        en: "The badge below updates live from your device clock. Please arrive 15 minutes before aarti.",
-        hi: "नीचे दिया बैज आपके डिवाइस की घड़ी से लाइव अपडेट होता है। कृपया आरती से 15 मिनट पूर्व पधारें।"
-      },
+      
       // 24-hour "HH:MM" strings. Used for the live OPEN / CLOSED badge.
       openWindows: [ ["04:30", "12:30"], ["16:00", "21:15"] ],
       dailyHeading: { en: "Daily Schedule", hi: "दैनिक कार्यक्रम" },
@@ -379,7 +376,7 @@ window.SITE = {
         { name: { en: "Shayan Aarti",       hi: "शयन आरती" },          time: "21:00", end: "21:15", note: { en: "Final aarti; temple closes at 9:15 PM.", hi: "अंतिम आरती; मंदिर रात्रि 9:15 बजे बंद।" } }
       ],
       specialHeading: { en: "Festival & Ashtami Timings", hi: "उत्सव एवं अष्टमी समय" },
-      specialNote: { en: "On these days the temple opens earlier, stays open longer and offers a midnight aarti.", hi: "इन दिनों मंदिर पूर्व खुलता है, अधिक समय तक खुला रहता है और मध्यरात्रि आरती होती है।" },
+      specialNote: { en: "On these days the temple opens earlier, stays open longer and offers a midnight aarti.", hi: "इन दिनों मंदिर अधिक समय तक खुला रहता है और मध्यरात्रि आरती का भी आयोजन किया जाता है।" },
       special: [
         { name: { en: "Monthly Ashtami",   hi: "मासिक अष्टमी" },   time: { en: "7:00 AM – 10:00 PM", hi: "प्रातः 7:00 – रात्रि 10:00" }, note: { en: "Special havan at 9:00 AM and bhajan sandhya at 7:00 PM.", hi: "प्रातः 9:00 बजे विशेष हवन एवं सायं 7:00 बजे भजन संध्या।" } },
         { name: { en: "Mahashivratri",     hi: "महाशिवरात्रि" },   time: { en: "Open all night", hi: "रात्रिभर खुला" }, note: { en: "Four-prahar aarti and continuous jagran.", hi: "चार प्रहर आरती एवं निरंतर जागरण।" } },
