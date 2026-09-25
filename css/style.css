@@ -119,12 +119,13 @@ code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-si
 
 /* ------------------------------------------------------------------ HEADER */
 .header {
-  position: sticky; top: 0; z-index: 60;
+  position: fixed; top: 0; left: 0; right: 0; z-index: 60;
   background: rgba(255, 248, 238, .92);
   backdrop-filter: saturate(140%) blur(12px);
   border-bottom: 1px solid var(--line);
   box-shadow: var(--shadow-sm);
 }
+body { padding-top: var(--head-h); }
 .header__inner { display: flex; align-items: center; gap: 18px; min-height: var(--head-h); min-width: 0; }
 .brand { display: flex; align-items: center; gap: 8px; flex: 1 1 auto; min-width: 0; }
 .brand__logo { width: 52px; height: 52px; filter: drop-shadow(0 4px 8px rgba(122,31,31,.22)); }
