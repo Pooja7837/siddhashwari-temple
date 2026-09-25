@@ -243,18 +243,18 @@ window.SITE = {
           { year: { en: "Present Day", hi: "वर्तमान" },
             title: { en: "A Living Legacy of Faith and Seva", hi: "आस्था एवं सेवा की जीवंत विरासत" },
             text: {
-              en: "Today, the temple continues to radiate its founding spirit of devotion and service. A free Yoga Centre helps devotees nurture both body and soul, while Langar seva, offered three times a day, ensures that no one who enters these sacred gates leaves without nourishment — a living embodiment of the Hindu principle of 'Atithi Devo Bhava' (the guest is God). And now, a new chapter is being written, as the construction of a sacred Ashram is underway — a future space for deeper spiritual practice, learning, and community, carrying forward this divine legacy for generations to come.",
-              hi: "आज भी मंदिर अपनी मूल भक्ति एवं सेवा भावना को उसी तेज के साथ प्रकाशित कर रहा है। एक निःशुल्क योग केंद्र श्रद्धालुओं को शरीर एवं आत्मा दोनों के पोषण में सहायक है, जबकि प्रतिदिन तीन बार लंगर सेवा यह सुनिश्चित करती है कि इन पावन द्वारों में प्रवेश करने वाला कोई भी व्यक्ति बिना भोजन प्रसाद के न लौटे — यह हिंदू सिद्धांत 'अतिथि देवो भवः' का साक्षात जीवंत उदाहरण है। और अब एक नया अध्याय लिखा जा रहा है, जब पावन आश्रम का निर्माण कार्य प्रगति पर है — भविष्य में गहन आध्यात्मिक साधना, शिक्षा एवं सामुदायिक सेवा हेतु एक स्थान, जो इस दिव्य विरासत को आने वाली पीढ़ियों तक आगे बढ़ाएगा।" } }
+              en: "Today, the temple continues to radiate its founding spirit of devotion and service. A free Yoga Centre helps devotees nurture both body and soul, while Langar seva, offered three times a day, ensures that no one who enters these sacred gates leaves without nourishment — a living embodiment of the Hindu principle of 'Atithi Devo Bhava' (the guest is God).<strong> And now, a new chapter is being written, as the construction of a sacred Ashram in C Block, Dashmesh City, Chabal Road, Amritsar, is underway </strong>— a future space for deeper spiritual practice, learning, and community, carrying forward this divine legacy for generations to come.",
+              hi: "आज भी मंदिर अपनी मूल भक्ति एवं सेवा भावना को उसी तेज के साथ प्रकाशित कर रहा है। एक निःशुल्क योग केंद्र श्रद्धालुओं को शरीर एवं आत्मा दोनों के पोषण में सहायक है, जबकि प्रतिदिन तीन बार लंगर सेवा यह सुनिश्चित करती है कि इन पावन द्वारों में प्रवेश करने वाला कोई भी व्यक्ति बिना भोजन प्रसाद के न लौटे — यह हिंदू सिद्धांत 'अतिथि देवो भवः' का साक्षात जीवंत उदाहरण है। <strong> और अब एक नया अध्याय लिखा जा रहा है, जब पावन आश्रम (सी ब्लॉक, दशमेश सिटी, चबाल रोड, अमृतसर) का निर्माण कार्य प्रगति पर है </strong> — भविष्य में गहन आध्यात्मिक साधना, शिक्षा एवं सामुदायिक सेवा हेतु एक स्थान, जो इस दिव्य विरासत को आने वाली पीढ़ियों तक आगे बढ़ाएगा।" } }
         ]
       },
       maharaj: {
-        heading: { en: "Our Gurudev", hi: "हमारे गुरुदेव" },
+        heading: { en: "Our Peethadheesh", hi: "हमारे पीठाधीश" },
         image: "images/Maharaj ji photo.jpg",
         name:  { en: "Shri Shri 1008 Mankameshwar Giri Ji Maharaj", hi: "श्री श्री 1008 मनकामेश्वर गिरि जी महाराज" },
         role:  { en: "Mahamandaleshwar, Shri Panchayati Mahanirvani Akhada, Kankhal, Haridwar", hi: "महामंडलेश्वर, श्री पंचायती महानिर्वाणी अखाड़ा, कनखल, हरिद्वार" },
         bio: [
-          { en: "Revered as a Guru and guiding light of Siddheshwari Peeth Dham, Shri Shri 1008 Mankameshwar Giri Ji Maharaj has devoted his life to sadhana, Maa Kali worship, and selfless service in the spirit of Sanatan Dharma.",
-            hi: "सिद्धेश्वरी पीठ धाम के पूज्य गुरु एवं मार्गदर्शक, श्री श्री १००८ मनकामेश्वर गिरि जी महाराज ने अपना जीवन सनातन धर्म की अमर परंपराओं, साधना, माँ काली की उपासना और निःस्वार्थ जनसेवा के लिए समर्पित कर दिया है।" },
+          { en: "Revered as a Peethadheesh and guiding light of Siddheshwari Peeth Dham, Shri Shri 1008 Mankameshwar Giri Ji Maharaj has devoted his life to sadhana, Maa Kali worship, and selfless service in the spirit of Sanatan Dharma.",
+            hi: "सिद्धेश्वरी पीठ धाम के पूज्य पीठाधीश एवं मार्गदर्शक, श्री श्री १००८ मनकामेश्वर गिरि जी महाराज ने अपना जीवन सनातन धर्म की अमर परंपराओं, साधना, माँ काली की उपासना और निःस्वार्थ जनसेवा के लिए समर्पित कर दिया है।" },
           { en: "Under his guidance, the Peeth runs langar, gau seva, healthcare initiatives, and sacred practices for the community. The teaching is simple: serving humanity is serving the divine.",
             hi: "उनके मार्गदर्शन में, पीठ द्वारा समाज के लिए लंगर, गौ सेवा, स्वास्थ्य सेवाएँ एवं धार्मिक अनुष्ठान संचालित किए जाते हैं। उनकी सीख अत्यंत सरल है: मानव सेवा ही ईश्वर सेवा है।" }
         ],
