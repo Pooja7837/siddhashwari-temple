@@ -467,7 +467,7 @@
       '<ol class="timeline">' + h.origin.timeline.map(function (e) {
         return '<li class="timeline__item" data-reveal>' +
           '<span class="timeline__year">' + esc(t(e.year)) + "</span>" +
-          '<div class="timeline__body"><h3>' + esc(t(e.title)) + "</h3><p>" + esc(t(e.text)) + "</p></div></li>";
+          '<div class="timeline__body"><h3>' + esc(t(e.title)) + "</h3><p>" + t(e.text) + "</p></div></li>";
       }).join("") + "</ol>", "section--cream");
     html += divider();
 
