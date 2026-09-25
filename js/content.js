@@ -58,6 +58,7 @@ window.SITE = {
     { id: "history",  href: "history.html",  label: { en: "History",          hi: "इतिहास" } },
     { id: "programs", href: "programs.html", label: { en: "Programs",         hi: "कार्यक्रम" } },
     { id: "timings",  href: "timings.html",  label: { en: "Aarti & Darshan",  hi: "आरती एवं दर्शन" } },
+    { id: "donation", href: "donation.html", label: { en: "Donate", hi: "दान करें" } },
     { id: "contact",  href: "contact.html",  label: { en: "Contact Us",       hi: "संपर्क करें" } }
     ],
 
